@@ -1,0 +1,2 @@
+openerp-Android-connector
+=========================
