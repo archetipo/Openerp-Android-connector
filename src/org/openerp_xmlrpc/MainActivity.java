@@ -56,6 +56,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		testResult = (EditText) findViewById(R.id.testResult);
 		connector=new OpenerpRpc(getBaseContext());
 		// set here the the data to connection e database name and object for the callback
+		// 10.0.2.2 is localhost in AVD
 		connector.Config("http://10.0.2.2:8069", DBNAME,this);
         btnTest = (Button) findViewById(R.id.btnTest); 
         btnTest.setOnClickListener(this);
